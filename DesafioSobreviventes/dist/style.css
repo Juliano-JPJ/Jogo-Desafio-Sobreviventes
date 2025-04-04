@@ -1,0 +1,59 @@
+body {
+  background: url("https://www.adrenaline.com.br/wp-content/uploads/2024/02/The-Last-of-Us-Part-II-foi-inspirado-por-Bloodborne-revela-documentario.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Gabarito", sans-serif;
+  margin: 20px;
+}
+
+.logo {
+  text-align: end;
+}
+
+.logo img {
+  width: 40%;
+}
+
+/* Caixa principal do jogo */
+.conteudo-jogo {
+  background: transparent; /* Torna o fundo transparente */
+  box-shadow: none; /* Remove a sombra do quadro */
+  margin: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: center; /* Mantém o conteúdo centralizado */
+  margin-top: 2rem;
+  flex-direction: column; /* Alinha os itens em coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+/* Títulos e textos */
+.titulo {
+  text-align: left; /* Alinha o texto à esquerda */
+  margin: 0; /* Remove margens para ficar no canto superior */
+  padding: 5px; /* Adiciona um pouco de espaço ao redor do título */
+  position: absolute; /* Permite posicionar o título em relação à borda */
+  top: 10px; /* Distância da borda superior */
+  left: 10px; /* Distância da borda esquerda */
+  border: 2px solid #ff1b7b; /* Adiciona uma borda ao redor do título */
+  background: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destacar o texto */
+  color: white; /* Cor do texto */
+}
+
+h2,
+p {
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  background: #ff1b7b;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #19caca;
+}
